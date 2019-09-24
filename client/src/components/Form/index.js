@@ -4,15 +4,15 @@ export function Form({ q, handleInputChange, handleFormSubmit }) {
   return (
     <form>
       <div className="form-group">
-        <label htmlFor="Query">
+        {/* <label htmlFor="Query">
           <strong>Book</strong>
-        </label>
+        </label> */}
         <input
           className="form-control"
           id="Title"
           type="text"
           value={q}
-          placeholder="Ready Player One"
+          placeholder="Search Term (i.e. Title or Author)"
           name="q"
           onChange={handleInputChange}
           required
