@@ -71,11 +71,11 @@ class Books extends Component {
         <Row>
           <Col size="md-6">
             <Card title="Book Search">
-            <Form>
-                handleInputChange={this.handleInputChange}
-                handleFormSubmit={this.handleFormSubmit}
-                q={this.state.q}
-            </Form>
+              <Form
+                  handleInputChange={this.handleInputChange}
+                  handleFormSubmit={this.handleFormSubmit}
+                  q={this.state.q}>
+              </Form>
             </Card>
 
             
